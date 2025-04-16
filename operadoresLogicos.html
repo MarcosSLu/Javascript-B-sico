@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var idade = 20;
+        var temCarteira = true;
+        var temMulta = false;
+
+        // && (E) - as duas condições precisam ser verdadeiras
+        if (idade >= 18 && temCarteira) {
+            console.log("Pode dirigir.");
+        } else {
+            console.log("Não pode dirigir.");
+        }
+
+        // || (OU) - pelo menos uma condição precisa ser verdadeira
+        if (idade >= 18 || temCarteira) {
+            console.log("Tem idade ou carteira, ou ambos.");
+        } else {
+            console.log("Não tem idade nem carteira.");
+        }
+
+        // ! (NÃO) - inverte o valor lógico
+        if (!temMulta) {
+            console.log("Está com a documentação em dia.");
+        } else {
+            console.log("Tem multa pendente.");
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
